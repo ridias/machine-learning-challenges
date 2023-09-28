@@ -36,11 +36,12 @@ for i in range(1, len(lines)):
     upper = countCapletters(password)
     digits = countDigits(password)
     specialChars = countSpecialChars(password)
+    length = len(password)
 
-    dataset.append([lower, upper, digits, specialChars, int(strength)])
+    dataset.append([lower, upper, digits, specialChars, length, int(strength)])
     
 my_dataset = np.array(dataset)
-df = pd.DataFrame(my_dataset, columns=['num_lower', 'num_upper', 'num_digits', 'num_special', 'strength'])
+df = pd.DataFrame(my_dataset, columns=['num_lower', 'num_upper', 'num_digits', 'num_special', 'length', 'strength'])
 
 print(df.info())
 
