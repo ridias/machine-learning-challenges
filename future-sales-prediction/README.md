@@ -1,0 +1,1 @@
+https://thecleverprogrammer.com/2022/03/01/future-sales-prediction-with-machine-learning/
