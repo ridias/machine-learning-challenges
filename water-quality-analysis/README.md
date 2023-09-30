@@ -1,0 +1,1 @@
+https://thecleverprogrammer.com/2021/08/19/water-quality-analysis/
